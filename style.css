@@ -104,7 +104,9 @@ h1,h2,h3{
 }
 
 .quartos{
+    min-width: 100px ;
     display:flex;
+    
     justify-content: space-around;
     margin: 0 250px;
     padding: 5px;
@@ -113,7 +115,7 @@ h1,h2,h3{
 }
 
 .quarto{
-    min-width: 200px;
+
     max-width:450px;
     height:380px;
     border-bottom: #4fab19 solid 5px;
